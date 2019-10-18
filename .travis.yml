@@ -5,7 +5,7 @@ node_js:
 install:
   - npm install
 script:
-  - node server
+  - node ./bin/www
   - cd client && ng serve
 cache:
   directories:
