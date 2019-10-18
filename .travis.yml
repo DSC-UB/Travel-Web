@@ -1,16 +1,23 @@
 
 language: node_js
+
 node_js: 
   - "stable"
+
 install:
   - npm install
+  
+services: mongodb
+
 before_script:
   - npm install -g express
   - npm install -g express-generator
   - npm install -g @angular/cli
+
 script:
   - node ./bin/www
   - cd client && ng serve
+
 cache:
   directories:
     - "node_modules"
