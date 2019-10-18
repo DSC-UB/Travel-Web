@@ -1,0 +1,12 @@
+
+language: node_js
+node_js: 
+  - "stable"
+install:
+  - npm install
+script:
+  - node server
+  - cd client && ng serve
+cache:
+  directories:
+    - "node_modules"
