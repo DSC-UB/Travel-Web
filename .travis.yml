@@ -4,6 +4,9 @@ node_js:
   - "stable"
 install:
   - npm install
+before_script:
+  - npm install -g express
+  - npm install -g @angular/cli
 script:
   - node ./bin/www
   - cd client && ng serve
