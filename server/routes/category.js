@@ -1,3 +1,7 @@
+/**
+*  Temporary file that serves as template for other routes
+*/
+
 let passport = require('passport');
 require('../config/passport')(passport);
 let express = require('express');
