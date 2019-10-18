@@ -16,8 +16,7 @@ before_script:
   - npm install -g @angular/cli
 
 script:
-  - node ./bin/www
-  - cd client && ng serve
+  - cd client && ng build
 
 cache:
   directories:
