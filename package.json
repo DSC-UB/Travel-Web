@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "TravelWeb",
+=======
+  "name": "Travel_Web",
+>>>>>>> 246c552328d9070efa93e72ea0fba13e6db35a98
   "version": "0.0.0",
   "private": true,
   "scripts": {

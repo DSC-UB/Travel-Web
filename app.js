@@ -18,7 +18,6 @@ mongoose.connect('mongodb://localhost/travel', {
 }).then(() =>  console.log('connection successful'))
   .catch((err) => console.error(err));
 
-let indexRouter = require('./server/routes/index');
 let usersRouter = require('./server/routes/user.route');
 
 let app = express();
@@ -34,7 +33,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/api/auth', auth);
 app.use('/api/category', category);
 app.use('/api/post', post);
-app.use('/api/public', indexRouter);
 app.use('/users', usersRouter);
 
 module.exports = app;

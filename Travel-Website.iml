@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
-  <component name="NewModuleRootManager">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
     <content url="file://$MODULE_DIR$">
+<<<<<<< HEAD:.idea/travel website.iml
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
       <excludeFolder url="file://$MODULE_DIR$/client/dist" />
       <excludeFolder url="file://$MODULE_DIR$/client/tmp" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
+=======
+      <excludeFolder url="file://$MODULE_DIR$/client/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/client/tmp" />
+>>>>>>> 246c552328d9070efa93e72ea0fba13e6db35a98:Travel-Website.iml
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
